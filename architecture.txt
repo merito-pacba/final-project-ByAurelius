@@ -4,3 +4,4 @@ Project Structure:
 - templates/: HTML templates (Jinja2)
 - static/: CSS and static assets
 - Azure Integration: Azure SQL Database & App Service
+- Deployment Status: Dependencies finalized. Flask-SQLAlchemy integration verified.

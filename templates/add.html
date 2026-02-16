@@ -1,16 +1,16 @@
 {% extends "base.html" %}
 {% block content %}
-<h2>Add New Travel</h2>
-<form action="/add" method="POST">
+<h2>Add New Travel Memory</h2>
+<form method="POST">
     <div class="mb-3">
-        <label>City</label>
-        <input type="text" name="city" class="form-control" placeholder="e.g. Paris" required>
+        <label class="form-label">City</label>
+        <input type="text" name="city" class="form-control" required>
     </div>
     <div class="mb-3">
-        <label>Description</label>
-        <textarea name="description" class="form-control" placeholder="Tell us about your trip..." required></textarea>
+        <label class="form-label">Description</label>
+        <textarea name="description" class="form-control" rows="3" required></textarea>
     </div>
-    <button type="submit" class="btn btn-primary">Save Entry</button>
-    <a href="/" class="btn btn-secondary">Cancel</a>
+    <button type="submit" class="btn btn-success">Save</button>
+    <a href="/" class="btn btn-secondary">Back</a>
 </form>
 {% endblock %}

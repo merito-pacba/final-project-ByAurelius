@@ -1,7 +1,4 @@
-Project Status:
-- Flask/Django: Yes (Flask)
-- AppService: Yes
-- Azure DB: Yes (Azure SQL)
-- Env Variables: Yes (DATABASE_URL used)
-- CRUD: Yes (Create, Read, Update, Delete implemented)
-- Repository status changed to Public for Azure integration
+Flask
+Flask-SQLAlchemy
+pyodbc
+azure-storage-blob

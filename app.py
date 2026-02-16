@@ -68,3 +68,5 @@ def delete_travel(id):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+    # Production configuration for Azure deployment

@@ -1,0 +1,6 @@
+Project Structure:
+- app.py: Main Flask application and routes
+- models: SQLAlchemy Travel model
+- templates/: HTML templates (Jinja2)
+- static/: CSS and static assets
+- Azure Integration: Azure SQL Database & App Service

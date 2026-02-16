@@ -1,0 +1,6 @@
+Project Status:
+- Flask/Django: Yes (Flask)
+- AppService: Yes
+- Azure DB: Yes (Azure SQL)
+- Env Variables: Yes (DATABASE_URL used)
+- CRUD: Yes (Create, Read, Update, Delete implemented)

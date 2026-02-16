@@ -1,0 +1,1 @@
+Resolved: Enabled SCM Basic Auth in Azure Settings to allow Publish Profile download.

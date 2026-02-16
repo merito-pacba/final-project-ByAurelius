@@ -1,3 +1,3 @@
 Resolved: Enabled SCM Basic Auth in Azure Settings to allow Publish Profile download.
-
 Still debugging ModuleNotFoundError. Forced restart and dependency re-sync.
+Final Debugging: Implementing double-import fallback for Flask-SQLAlchemy and forcing Linux line endings on requirements.txt.

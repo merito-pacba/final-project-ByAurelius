@@ -1,4 +1,7 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=22575603)
-Project Description: Cloud Travel Journal
+# Traveler Journal
+A cloud-based web application built with Flask and Azure.
 
-Cloud Travel Journal is a web-based application built with Python and Flask that allows users to manage a personal travel diary through a simple and user-friendly interface. The application supports full CRUD operations, enabling users to store travel entries such as destinations, travel notes, and dates, as well as upload photos from their trips to the cloud. Architecturally, it utilizes Azure PaaS services, storing structured travel data in an Azure-hosted database and unstructured image files in Azure Blob Storage. The application is hosted on Azure App Service and securely configured using environment variables to prevent hardcoded credentials. Additionally, it includes an automated deployment pipeline from GitHub, ensuring that updates are automatically deployed to the production environment.
+## Features
+- Full CRUD operations
+- Azure SQL Database integration
+- Responsive UI with Bootstrap

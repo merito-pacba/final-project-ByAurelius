@@ -2,6 +2,8 @@ import os
 from flask import Flask, render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
+from dotenv import load_dotenv
+load_dotenv() # Bu satır yerel geliştirme için .env dosyasını okur
 
 app = Flask(__name__)
 

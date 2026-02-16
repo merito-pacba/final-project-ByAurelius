@@ -4,3 +4,4 @@ Project Status:
 - Azure DB: Yes (Azure SQL)
 - Env Variables: Yes (DATABASE_URL used)
 - CRUD: Yes (Create, Read, Update, Delete implemented)
+- Repository status changed to Public for Azure integration
